@@ -43,12 +43,10 @@ setInterval(() => {
 btnNext.addEventListener('click', () => {
     position++;
     changeImage();
-    console.log(-position * imgWidth);
 });
 
 btnPrev.addEventListener('click', () => {
     position--;
     changeImage();
-    console.log(-position * imgWidth);
 });
 
